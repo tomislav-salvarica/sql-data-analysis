@@ -43,4 +43,8 @@ Se analizaron cinco departamentos: Finance, HR, IT, Operations y Sales.
 
 SQL · MySQL · Funciones de ventana · Subconsultas · Excel · Tablas dinámicas · Visualización de datos · Análisis de datos
 
+## 📊 Visualización en Excel
+
+![Ranking de empleados por coste anual](employee_cost_dashboard.png)
+
 
