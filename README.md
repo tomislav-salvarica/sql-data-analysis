@@ -1,63 +1,107 @@
-# 📊 SQL Data Analysis Portfolio
+# 📊 Portfolio de Análisis de Datos | SQL & Excel
 
-Repositorio dedicado a proyectos y ejercicios de análisis de datos con **SQL**, enfocados en resolver problemas de negocio, transformar información y obtener insights útiles para la toma de decisiones.
+Bienvenido a mi portfolio de proyectos de análisis de datos.
 
-Actualmente estoy desarrollando mis competencias en análisis de datos y utilizando SQL como herramienta para consultar, clasificar, filtrar y analizar información.
+Este repositorio reúne ejercicios prácticos en los que aplico SQL y Microsoft Excel para transformar datos en información estructurada, analizar indicadores y desarrollar visualizaciones que faciliten la interpretación de resultados.
 
----
-
-## 🛠️ Habilidades SQL
-
-En este repositorio encontrarás ejercicios y proyectos relacionados con:
-
-- SELECT
-- WHERE
-- ORDER BY
-- CASE WHEN
-- Funciones de agregación
-- GROUP BY
-- HAVING
-- JOIN
-- Clasificación y segmentación de datos
-- Análisis de presupuestos
-- Comparación de resultados reales vs objetivos
-- Lógica de negocio aplicada a datos
+Mi objetivo es continuar desarrollando competencias técnicas en **Data Analytics y Business Intelligence**, aplicando los conocimientos adquiridos a diferentes escenarios de negocio.
 
 ---
 
-## 📂 Proyectos
+## 🛠️ Herramientas y competencias
 
-### 📈 Marketing Campaign Budget Analysis
+**SQL | MySQL**
 
-Análisis de campañas de marketing para:
+* Consultas y filtrado de datos.
+* Funciones de agregación.
+* Subconsultas y funciones de ventana.
+* Clasificación de registros mediante `CASE`.
+* Análisis y agrupación de información.
 
-- Clasificar las campañas según su presupuesto.
-- Identificar campañas de bajo, medio y alto presupuesto.
-- Comparar el gasto real con el presupuesto asignado.
-- Detectar campañas con gasto superior o inferior al presupuesto.
+**Microsoft Excel**
 
-**Tecnologías:** SQL  
-**Conceptos aplicados:** CASE WHEN, SELECT, lógica condicional y análisis de negocio.
-
-➡️ Proyecto disponible próximamente en este repositorio.
+* Tablas dinámicas.
+* Gráficos y visualización de datos.
+* Análisis comparativo de indicadores.
+* Presentación de resultados.
 
 ---
 
-## 🎯 Objetivo
+## 📁 Proyectos desarrollados
 
-Mi objetivo es seguir desarrollando competencias en **Data Analytics**, indicadores y mejora continua con herramientas como:
+### 01. Análisis de presupuestos de campañas de marketing
 
-- SQL
-- Excel
-- Power Query
-- Power BI
-- DAX
+**Herramienta:** SQL · MySQL Workbench
+
+Análisis de campañas de marketing mediante la clasificación de presupuestos y la comparación entre el gasto real y el presupuesto asignado.
+
+**Competencias aplicadas:**
+
+* Clasificación mediante `CASE WHEN`.
+* Creación de categorías presupuestarias.
+* Comparación del gasto frente al presupuesto.
+* Obtención de información para el seguimiento financiero de campañas.
+
+[📂 Ver proyecto de campañas de marketing](./01-marketing-campaign-budget-analysis)
+
+---
+
+### 02. Ranking de empleados por coste anual
+
+**Herramientas:** SQL · MySQL Workbench · Microsoft Excel
+
+Análisis de los tres empleados con mayor coste anual en cada departamento, utilizando funciones de ventana y una posterior visualización de los resultados en Excel.
+
+**Competencias aplicadas:**
+
+* `RANK()` y `PARTITION BY`.
+* Subconsultas para filtrar resultados.
+* Clasificación por departamento.
+* Exportación de resultados SQL a Excel.
+* Elaboración de tablas dinámicas.
+* Creación de gráficos comparativos.
+
+**Resultado:** visualización de los costes anuales y las diferencias entre los empleados clasificados en las tres primeras posiciones de cada departamento.
+
+[📂 Ver proyecto SQL + Excel](./02-employee-cost-ranking)
+
+---
+
+## 🎯 Enfoque de aprendizaje
+
+Mi formación está orientada a desarrollar un proceso completo de análisis de datos:
+
+**Extracción de datos → Transformación → Análisis → Visualización → Interpretación**
+
+A través de estos proyectos busco demostrar no solo el conocimiento de herramientas técnicas, sino también la capacidad de estructurar información y presentar resultados de manera clara.
+
+Los proyectos utilizan datos simulados con fines educativos.
+
+---
+
+## 🚀 Próximos objetivos
+
+Continuar desarrollando proyectos de análisis de datos que integren distintas herramientas y permitan abordar problemas de negocio desde la extracción hasta la visualización de resultados.
+
+Tecnologías en las que estoy profundizando:
+
+SQL y MySQL
+Microsoft Excel
+Power Query
+Power BI
+DAX
+
+Mi objetivo es ampliar este portfolio con análisis de indicadores, dashboards interactivos y proyectos que demuestren la aplicación práctica de estas competencias.
+
 
 ---
 
 ## 👤 Sobre mí
 
-Profesional con experiencia en atención al cliente.
-Actualmente estoy ampliando mis competencias hacia el análisis de datos para desarrollar soluciones basadas en información y facilitar la toma de decisiones.
+Profesional con experiencia en atención al cliente, actualmente orientado al desarrollo de competencias en Data Analytics y Business Intelligence.
+
+A través de este portfolio documento mi aprendizaje y comparto proyectos prácticos enfocados en el análisis, la interpretación y la visualización de datos.
+
+Mi interés profesional se centra en transformar información en conocimiento útil para facilitar la toma de decisiones.
 
 🔗 LinkedIn: [Mi perfil de LinkedIn](www.linkedin.com/in/tomislav-salvarica)
