@@ -12,5 +12,3 @@ SELECT employee_id,
        
        
        
-       SELECT *
-       FROM practica.customer_support_500;
