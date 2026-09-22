@@ -67,6 +67,28 @@ Análisis de los tres empleados con mayor coste anual en cada departamento, util
 
 ---
 
+### 📊 Proyecto 03 | Análisis de Soporte al Cliente con SQL
+
+Análisis de una base de datos de práctica con 500 registros de soporte al cliente mediante MySQL.
+
+**Objetivo:** construir indicadores operativos que permitan analizar la gestión de tickets por empleado.
+
+**Indicadores desarrollados:**
+
+* Volumen total de tickets por empleado.
+* Cantidad de tickets resueltos y en progreso.
+* Tiempo promedio de gestión en minutos.
+* Porcentaje de resolución por empleado.
+
+**Herramientas y funciones:** MySQL, `COUNT()`, `CASE`, `AVG()`, `ROUND()`, `GROUP BY`, `HAVING` y `ORDER BY`.
+
+**Resultados:** análisis comparativo del volumen de tickets, los tiempos de gestión y los porcentajes de resolución para facilitar el seguimiento del servicio.
+
+🔗 [Ver proyecto completo en GitHub](03-customer-support-analysis)
+
+
+---
+
 ## 🎯 Enfoque de aprendizaje
 
 Mi formación está orientada a desarrollar un proceso completo de análisis de datos:
