@@ -80,3 +80,7 @@ También aprendí a combinar métricas de volumen, estado y tiempo en una única
 ---
 
 **Proyecto desarrollado como parte de mi aprendizaje y transición profesional hacia el análisis de datos y Business Intelligence.**
+
+## 📊 Resultados de la consulta
+
+![Resultados del análisis de tickets](resultados.png)
