@@ -1,23 +1,23 @@
-# Branch Asset Risk Analysis | SQL
+# Análisis de Riesgo de Activos por Sucursal | SQL
 
-## 📌 Project Overview
+## 📌 Descripción del proyecto
 
-SQL project focused on analyzing branch asset conditions and identifying operational risk based on asset status.
+Proyecto práctico de análisis de datos enfocado en evaluar el estado de los activos de diferentes sucursales e identificar posibles niveles de riesgo operativo.
 
-The analysis combines branch and asset data to calculate the proportion of assets that are either inactive or under maintenance.
+El análisis combina información de sucursales y activos para calcular qué proporción de los activos se encuentra inactiva o en mantenimiento.
 
-## 🎯 Objective
+## 🎯 Objetivo
 
-The goal of this project is to:
+El objetivo de este proyecto es:
 
-- Analyze assets by branch.
-- Count active, inactive and under-maintenance assets.
-- Calculate total asset cost.
-- Review branch investment.
-- Calculate a branch risk percentage.
-- Classify each branch as High, Medium or Low risk.
+- Analizar los activos por sucursal.
+- Contar activos activos, inactivos y en mantenimiento.
+- Calcular el coste total de los activos.
+- Revisar la inversión realizada por sucursal.
+- Calcular un porcentaje de riesgo por sucursal.
+- Clasificar cada sucursal según su nivel de riesgo.
 
-## 🛠️ Tools & SQL Concepts
+## 🛠️ Herramientas y conceptos SQL utilizados
 
 - MySQL
 - MySQL Workbench
@@ -32,61 +32,71 @@ The goal of this project is to:
 - `HAVING`
 - `ORDER BY`
 
-## 📊 Risk Logic
+## 📊 Lógica del riesgo
 
-The risk percentage is calculated as:
+El porcentaje de riesgo se calcula de la siguiente manera:
 
 ```sql
-(Inactive Assets + Assets Under Maintenance)
+(Activos inactivos + Activos en mantenimiento)
 /
-Total Assets * 100
-
+Total de activos * 100
 ```
-Branches are classified as:
 
-- **High risk:** 50% or more
-- **Medium risk:** 25% to 49.99%
-- **Low risk:** below 25%
+Las sucursales se clasifican así:
 
-## 🧠 Query Structure
+- **Riesgo alto:** 50 % o más
+- **Riesgo medio:** entre 25 % y 49,99 %
+- **Riesgo bajo:** menos del 25 %
 
-The query uses two chained CTEs:
+## 🧠 Estructura de la consulta
+
+La consulta utiliza dos CTE encadenados.
 
 ### 1. `branch_risk`
 
-This first CTE aggregates branch and asset information, including:
+El primer CTE agrupa la información de sucursales y activos e incluye:
 
-- total active assets
-- total inactive assets
-- assets under maintenance
-- total assets
-- total asset cost
-- branch investment
+- Total de activos activos.
+- Total de activos inactivos.
+- Total de activos en mantenimiento.
+- Total general de activos.
+- Coste total de los activos.
+- Inversión de la sucursal.
 
 ### 2. `risk`
 
-The second CTE uses the results from `branch_risk` to calculate the risk percentage for each branch.
+El segundo CTE utiliza los resultados de `branch_risk` para calcular el porcentaje de riesgo de cada sucursal.
 
-The final `SELECT` uses a `CASE` statement to classify each branch according to its risk level.
+Posteriormente, el `SELECT` final utiliza una sentencia `CASE` para clasificar cada sucursal según su nivel de riesgo.
 
-## 📷 SQL Query
+## 📷 Consulta SQL
 
-### Part 1
+### Parte 1
 
-![Branch Asset Risk SQL Part 1](branch_asset_risk_analysis1.png)
+![Consulta SQL - Parte 1](branch_asset_risk_analysis1.png)
 
-### Part 2
+### Parte 2
 
-![Branch Asset Risk SQL Part 2](branch_asset_risk_analysis2.png)
+![Consulta SQL - Parte 2](branch_asset_risk_analysis2.png)
 
-## 💡 What I Learned
+## 💡 Aprendizajes
 
-This exercise helped me better understand how chained CTEs can simplify complex SQL queries.
+Este ejercicio me ayudó a comprender mejor cómo los CTE encadenados pueden simplificar consultas SQL más complejas.
 
-Instead of repeating long aggregate expressions, I created intermediate results that could be reused in later calculations.
+En lugar de repetir expresiones largas de agregación, pude crear resultados intermedios y reutilizarlos en cálculos posteriores.
 
-It also helped me practice how to transform operational data into business indicators that can support reporting and decision-making.
+También practiqué cómo combinar información de distintas tablas mediante `JOIN`, utilizar funciones de agregación y transformar datos operativos en indicadores útiles para reporting, análisis y toma de decisiones.
+
+## 🚀 Competencias practicadas
+
+- Creación y uso de CTEs.
+- Unión de tablas mediante `INNER JOIN`.
+- Agregación de datos por sucursal.
+- Uso de lógica condicional con `CASE`.
+- Creación de indicadores porcentuales.
+- Clasificación de resultados según reglas de negocio.
+- Ordenación y filtrado de resultados agregados.
 
 ---
 
-Practice project developed as part of my Data Analytics and Business Intelligence learning journey.
+Proyecto práctico desarrollado como parte de mi formación en Análisis de Datos e Inteligencia de Negocio.
