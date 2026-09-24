@@ -41,6 +41,7 @@ The risk percentage is calculated as:
 /
 Total Assets * 100
 
+```
 Branches are classified as:
 
 - **High risk:** 50% or more
