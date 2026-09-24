@@ -89,8 +89,3 @@ It also helped me practice how to transform operational data into business indic
 ---
 
 Practice project developed as part of my Data Analytics and Business Intelligence learning journey.
-
-![Branch Asset Risk SQL Part 1](branch_asset_risk_analysis1.png)
-
-![Branch Asset Risk SQL Part 2](branch_asset_risk_analysis2.png)
-
