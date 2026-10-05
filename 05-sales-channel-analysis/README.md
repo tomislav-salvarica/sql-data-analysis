@@ -36,3 +36,9 @@ SELECT
 FROM sql_powerbi_practice.sales_500
 WHERE order_status = 'completed'
 GROUP BY sales_channel;
+
+## Conclusión
+
+El canal Website presentó el mayor rendimiento tanto en ingresos como en ventas completadas, seguido por Store y App.
+
+Este análisis permite comparar rápidamente el desempeño comercial de cada canal y detectar cuáles generan mayor volumen de ventas e ingresos.
