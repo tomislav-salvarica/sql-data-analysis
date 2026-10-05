@@ -16,7 +16,6 @@ El análisis parte de una tabla de ventas con 500 registros. Primero se realiza 
 - MySQL Workbench
 - SQL
 - Power BI
-- DAX
 
 ## Análisis con SQL
 
