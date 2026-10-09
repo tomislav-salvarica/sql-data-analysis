@@ -35,6 +35,7 @@ ORDER BY salario_promedio DESC;
 ```
 
 ## 📈 Dashboard en Power BI
+![Dashboard de análisis salarial](dashboard.png)
 
 Se desarrolló **HR | Salary Analytics**, un informe interactivo que incluye:
 
