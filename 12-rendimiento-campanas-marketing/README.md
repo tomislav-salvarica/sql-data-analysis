@@ -184,7 +184,7 @@ El informe presenta:
 
 ### Vista general
 
-![Dashboard de rendimiento de campañas](dashboard1.png)
+![Dashboard de rendimiento de campañas](dashboard.png)
 
 ---
 
