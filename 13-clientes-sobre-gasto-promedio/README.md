@@ -206,6 +206,8 @@ El informe de Power BI contiene:
 
 ![Dashboard de clientes por encima del gasto promedio](dashboard.png)
 
+📥 [Descargar dashboard interactivo de Power BI](EJERCICIO11.Clientes_por_encima_del_gasto_promedio.pbix)
+
 ---
 
 ## 📊 Resultados principales
