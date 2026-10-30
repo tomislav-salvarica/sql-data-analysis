@@ -133,6 +133,8 @@ Se utilizó una paleta visual oscura denominada **Midnight Teal**, con colores d
 
 ![Dashboard de análisis de márgenes](dashboard.png)
 
+📥 [Descargar dashboard interactivo de Power BI](EJERCICIO12.Margen_estimado_por_categoria.pbix)
+
 ---
 
 ## 📊 Resultados principales
