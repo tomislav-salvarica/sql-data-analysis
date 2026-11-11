@@ -4,7 +4,7 @@
 **Herramientas:** Excel avanzado · Power BI · MySQL (fase futura)  
 **Datos:** 30.000 registros simulados · Marca ficticia: Aurea Mobility
 
-> **Estado del proyecto (noviembre de 2026):** disponibles dashboards de Excel y Power BI. La fase de limpieza, cálculo y análisis en MySQL se incorporará posteriormente. Los resultados que siguen son los que muestran los dashboards; no representan operaciones reales.
+> **Estado del proyecto (noviembre de 2026):** archivos editables de Excel (`.xlsm`) y Power BI (`.pbix`) incorporados al proyecto. La fase de limpieza, cálculo y análisis en MySQL se añadirá posteriormente. Los datos y resultados son simulados.
 
 ## 1. Objetivo
 
@@ -57,7 +57,18 @@ Desarrollar un caso práctico de *Pricing Analytics* que permita explorar:
 
 La siguiente fase consistirá en importar las tablas, auditar y limpiar los datos, validar relaciones y reproducir los cálculos relevantes mediante SQL. **Los scripts aún no forman parte de esta versión.**
 
-## 4. Capturas de los dashboards
+## 4. Archivos del proyecto
+
+Los dos archivos permiten explorar los informes y revisar su construcción en las herramientas originales:
+
+| Herramienta | Archivo | Contenido |
+|---|---|---|
+| **Excel avanzado** | [Descargar libro Excel (.xlsm)](Excel/Aurea_Mobility_Analisis_Pricing%20%28Autosaved%29.xlsm) | Tablas, cálculos, indicadores y dos dashboards interactivos. |
+| **Power BI Desktop** | [Descargar informe Power BI (.pbix)](PowerBI/Aurea_Mobility_Pricing_Analysis.pbix) | Modelo e informes de precios, rentabilidad y competitividad. |
+
+**Cómo abrirlos:** descarga el archivo desde GitHub y ábrelo en Excel de escritorio o Power BI Desktop, respectivamente. El libro Excel es `.xlsm` (habilitado para macros); revisa siempre las macros antes de habilitarlas. GitHub puede no mostrar una vista previa de estos archivos binarios grandes: eso no impide descargarlos.
+
+## 5. Capturas de los dashboards
 
 ### Power BI: precios y rentabilidad
 
@@ -75,7 +86,7 @@ La siguiente fase consistirá en importar las tablas, auditar y limpiar los dato
 
 ![Dashboard de competitividad en Excel](screenshots/excel-competitividad.png)
 
-## 5. Estructura del proyecto
+## 6. Estructura del proyecto
 
 ```text
 15-car-rental-pricing-analysis/
@@ -85,12 +96,14 @@ La siguiente fase consistirá en importar las tablas, auditar y limpiar los dato
 │   ├── powerbi-competitividad.png
 │   ├── excel-precios-rentabilidad.png
 │   └── excel-competitividad.png
-├── excel/        # Se añadirá el libro .xlsx
-├── powerbi/      # Se añadirá el informe .pbix
+├── Excel/
+│   └── Aurea_Mobility_Analisis_Pricing (Autosaved).xlsm
+├── PowerBI/
+│   └── Aurea_Mobility_Pricing_Analysis.pbix
 └── sql/          # Scripts MySQL pendientes
 ```
 
-## 6. Consideraciones analíticas
+## 7. Consideraciones analíticas
 
 - Todos los datos son **simulados**; las conclusiones son ilustrativas y no describen el rendimiento de una empresa real.
 - Los KPI deben interpretarse de acuerdo con sus filtros y denominadores. Por ejemplo, las métricas de reservas **finalizadas** no deben confundirse con el total de los registros.
@@ -98,10 +111,10 @@ La siguiente fase consistirá en importar las tablas, auditar y limpiar los dato
 - Los valores de categoría, sucursal o temporada pendientes de revisión no deberían corregirse por suposición.
 - No se publicarán datos personales, credenciales ni conexiones privadas en el repositorio.
 
-## 7. Próximos pasos
+## 8. Estado y próximos pasos
 
-- [ ] Incorporar el libro de Excel utilizado para el análisis.
-- [ ] Incorporar el archivo de Power BI (`.pbix`).
+- [x] Añadir el libro original de Excel (`.xlsm`).
+- [x] Añadir el archivo original de Power BI (`.pbix`).
 - [ ] Realizar controles de coherencia entre Excel y Power BI.
 - [ ] Importar y trabajar las tablas en MySQL.
 - [ ] Documentar los scripts SQL y las validaciones efectuadas.
